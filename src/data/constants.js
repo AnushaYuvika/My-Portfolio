@@ -241,7 +241,7 @@ export const projects = [
     ],
   },
   {
-    id: 1,
+    id: 3,
     title: "Rock-Paper-Scissor",
     date: "Oct 2022 - Present",
     description:
@@ -269,6 +269,18 @@ export const projects = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
     tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+    category: "web app",
+    github: "https://github.com/AnushaYuvika/The-Dog-House",
+    webapp: "https://whatsapp-clone-rishav.web.app",
+  },
+  {
+    id: 5,
+    title: "Tic-Tac-Toe Game",
+    date: "Jul 2021",
+    description: "A simple Tic Tac Toe game built with HTML, CSS, and JavaScript. Players take turns with 'X' and 'O', with automatic winner detection and a restart option.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+    tags: ["HTMl, CSS", "Javascript"],
     category: "web app",
     github: "https://github.com/AnushaYuvika/The-Dog-House",
     webapp: "https://whatsapp-clone-rishav.web.app",
