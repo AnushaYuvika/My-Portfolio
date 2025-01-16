@@ -218,7 +218,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/AnushaYuvika/Food-Delivery-App",
-    // webapp: "https://trackify.duckdns.org",
+    webapp: "https://food-delivery-app-ecq1.vercel.app/",
   },
   {
     id: 2,
@@ -231,7 +231,7 @@ export const projects = [
     tags: ["Reactjs", "HTML", "TailwindCss", "Javascript",],
     category: "web app",
     github: "https://github.com/AnushaYuvika/Real-Estate-Website",
-    // webapp: "https://podstream.netlify.app/",
+    webapp: "https://real-estate-website-seven-rouge.vercel.app/",      
     // member: [
     //   {
     //     name: "Rishav Chanda",
@@ -258,7 +258,7 @@ export const projects = [
     tags: ["HTML", "CSS", "Javascript"],
     category: "web app",
     github: "https://github.com/AnushaYuvika/YouTube-Clone",
-    // webapp: "https://vexa-app.netlify.app/",
+    webapp: "https://anushayuvika.github.io/YouTube-Clone/",
   },
   {
     id: 4,
@@ -271,7 +271,7 @@ export const projects = [
     tags: ["HTML", "CSS", "Javascript"],
     category: "web app",
     github: "https://github.com/AnushaYuvika/RockPaperScissors",
-    // webapp: "https://vexa-app.netlify.app/",
+    webapp: "https://anushayuvika.github.io/RockPaperScissors/",
   },
   {
     id: 5,
@@ -283,7 +283,7 @@ export const projects = [
     tags: ["HTMl, CSS", "Javascript"],
     category: "web app",
     github: "https://github.com/AnushaYuvika/Tic-Tac-Toe-Game",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+    webapp: "https://anushayuvika.github.io/Tic-Tac-Toe-Game/",
   },
 ];
 
