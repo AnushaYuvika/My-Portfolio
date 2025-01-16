@@ -1,3 +1,5 @@
+import { Javascript } from "@mui/icons-material";
+
 export const Bio = {
   name: "Anusha Yuvika",
   roles: [
@@ -7,7 +9,7 @@ export const Bio = {
   description:
     "Passionate Software Developer, skilled in Java and React.js, focused on building effective web applications. Eager to learn new technologies, I thrive under pressure, enjoy problem-solving, and am committed to producing high-quality work while building positive relationships with team members.",
   github: "https://github.com/AnushaYuvika",
-  resume: "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+  resume: "file:///D:/Skills/Certificates/Updated%20Resume.pdf",
   linkedin: "https://www.linkedin.com/in/anushayuvika19/",
   github: "https://github.com/AnushaYuvika",
   twitter: "https://x.com/Anusha1908",
@@ -122,10 +124,10 @@ export const experiences = [
   {
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Software Engineering Intern",
+    role: "Software Developer Intern",
     company: "Ocac Tower.",
     date: "May 2024 - June 2024",
-    desc: "Working .",
+    desc: "Worked on a Hotel management project utilizing varoius web technologies to enhance user experience and functionality. Skills utilized included HTML, CSS, JavaScript, Bootstrap for responsiveness design.",
     skills: [
       "HTML5",
       "css3",
@@ -170,27 +172,27 @@ export const education = [
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
     school: "Gandhi Institute Of Technology and Advancement(GITA)",
-    grade: "8.71 CGPA",
+    grade: "8.12 CGPA",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     date: "2021 - 2025",
   },
   {
     id: 1,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Atomic Energy Central School, Jadugoda",
+    school: "Atomic Energy Central School, Jamshedpur",
     date: "Apr 2019 - Apr 2021",
     grade: "66%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
+    desc: "I completed my class 12 high school education at Atomic Energy Central School, Jamshedpur, where I studied Science with Computer Science.",
+    degree: "CBSE(XII), Science with Computer",
   },
   {
     id: 2,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Atomic Energy Central School, Turamdih",
-    date: "Apr 2017 - Apr 2019",
+    school: "Atomic Energy Central School, Jamshedpur",
+    date: "Apr 2019",
     grade: "71%",
-    desc: "I completed my class 10 education at Atomic Energy Central School, Turamdih where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
+    desc: "I completed my class 10 education at Atomic Energy Central School, Jamshedpur, where I studied Science with Computer Application.",
+    degree: "CBSE(X), Science with Computer",
   },
 ];
 
@@ -221,7 +223,7 @@ export const projects = [
       "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
     image:
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    tags: ["Reactjs", "HTML", "TailwindCss", "Javascript",],
     category: "web app",
     github: "https://github.com/rishavchanda/Podstream",
     webapp: "https://podstream.netlify.app/",
@@ -242,36 +244,29 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Rock-Paper-Scissor",
-    date: "Oct 2022 - Present",
+    title: "Youtube Clone",
+    date: "Dec 2023",
     description:
       "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
     image:
       "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
+    tags: ["HTML", "CSS", "Javascript"],
     category: "web app",
     github: "https://github.com/AnushaYuvika/RockPaperScissors",
     webapp: "https://vexa-app.netlify.app/",
   },
   {
     id: 4,
-    title: "The Dog House",
-    date: "Jul 2021",
+    title: "Rock-Paper-Scissor Game",
+    date: "Oct 2022 - Present",
     description:
-      "This project gives the information about veterinary care and pet wellness with our responsive HTML Bootstrap webpage, featuring intuitive navigation and a clean design to enhance your pet's health journey.",
+      "Developed interactive Rock Paper Scissors and Tic Tac Toe game using HTML, CSS, Js. This project features responsive design, intuitive user interfaces and real-time game logic, providing engaging and accessible gameplay across devices",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+    tags: ["HTML", "CSS", "Javascript"],
     category: "web app",
-    github: "https://github.com/AnushaYuvika/The-Dog-House",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+    github: "https://github.com/AnushaYuvika/RockPaperScissors",
+    webapp: "https://vexa-app.netlify.app/",
   },
   {
     id: 5,
@@ -289,7 +284,7 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2021, text: "Started my journey" },
-  { year: 2022, text: "Founded JavaScript Mastery" },
+  { year: 2022, text: "Learning JavaScript" },
   { year: 2023, text: "Shared my projects with the world" },
   { year: 2024, text: "Started my own platform" },
 ];
