@@ -4,7 +4,8 @@ import { Link as LinkR } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { useTheme } from 'styled-components';
-import HeroImg from '../../images/HeroImage.jpg'
+import HeroImage from '../../images/HeroImage.jpeg';
+
 
 
 const Nav = styled.div`
@@ -203,7 +204,7 @@ const Navbar = () => {
           <div style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20', cursor: 'pointer', }}>
           <Container>
             <Disk>
-              <Img src={HeroImg} alt="Hero" />
+              <Img src={HeroImage} alt="Hero" />
             </Disk>
           </Container> <Span>Portfolio</Span>
           </div>

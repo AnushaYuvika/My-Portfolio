@@ -2,8 +2,10 @@ import React from 'react'
 import styled from "styled-components";
 import { Bio } from '../../data/constants';
 import Typewriter from 'typewriter-effect';
-import HeroImg from '../../images/HeroImage.jpg'
 import HeroBgAnimation from '../HeroBgAnimation';
+import HeroImage from '../../images/HeroImage.jpeg';
+
+
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -194,7 +196,10 @@ export const Img = styled.img`
   max-height: 400px;
   border: 2px solid ${({ theme }) => theme.primary};
   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 
   @media (max-width: 768px) {
    max-width: 400px;
@@ -206,7 +211,6 @@ export const Img = styled.img`
     max-height: 280px;
   }
 `;
-
 
 
 const Hero = () => {
@@ -228,7 +232,8 @@ const Hero = () => {
             <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
           </HeroLeftContainer>
           <HeroRightContainer id='Right'>
-            <Img src={HeroImg} alt="hero-image" />
+            {/* <Img src={HeroImg} alt="hero-image" /> */}
+            <Img src={HeroImage} alt='hero-image' />
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
