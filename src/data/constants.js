@@ -1,4 +1,4 @@
-import { Javascript } from "@mui/icons-material";
+
 
 export const Bio = {
   name: "Anusha Yuvika",
@@ -11,7 +11,6 @@ export const Bio = {
   github: "https://github.com/AnushaYuvika",
   resume: "file:///D:/Skills/Certificates/Updated%20Resume.pdf",
   linkedin: "https://www.linkedin.com/in/anushayuvika19/",
-  github: "https://github.com/AnushaYuvika",
   twitter: "https://x.com/Anusha1908",
 };
 
